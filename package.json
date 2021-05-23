@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:server": "webpack --config webpack.config.server.js",
+    "build:client": "webpack --config webpack.config.client.js",
     "start": "node ./dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
